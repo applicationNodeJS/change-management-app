@@ -20,12 +20,24 @@ cd change-management-app
 - Terminal/CMD pour les commandes.
 
 ## Installation
-1. **devback** :
+1. **Base De Données (Mongo DB)** :
+   - Dans MongoDB Compass et dans le local  localhost:27017
+   - crée une base de données nommée :change-management avec collection : stories
+     
+2. **devback** :
    ```bash
    cd devback
    npm install
    cp .env.example .env  # Configurez votre URI MongoDB
+   
+   2.1- code du fichier .env  :
+MONGODB_URI=mongodb://localhost:27017/change-management
+PORT=3000
+
    npm start
    ```
-2. **Frontend** :
+3. **Frontend** :
    - Ouvrez `devfront/index.html` dans un navigateur.
+
+
+
