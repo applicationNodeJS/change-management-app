@@ -36,6 +36,7 @@ MONGODB_URI=mongodb://localhost:27017/change-management
 
 PORT=3000
 
+dans le terminal de devback execute :
    npm start
    ```
 3. **Frontend** :
