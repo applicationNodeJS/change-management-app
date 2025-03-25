@@ -30,7 +30,7 @@ cd change-management-app
    npm install
    cp .env.example .env  # Configurez votre URI MongoDB
    
-   2.1- code du fichier .env  :
+2.1- code du fichier .env  :
 MONGODB_URI=mongodb://localhost:27017/change-management
 PORT=3000
 
