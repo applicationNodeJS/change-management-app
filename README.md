@@ -40,7 +40,8 @@ dans le terminal de devback execute :
    npm start
    ```
 3. **Frontend** :
-   - Ouvrez `devfront/index.html` dans un navigateur.
+
+- Ouvrez `devfront/index.html` dans un navigateur.
 
 
 
